@@ -1,0 +1,29 @@
+{
+  "name" : "linuskohl/facebook-messenger-webhook",
+  "license" : "MIT",
+  "minimum-stability" : "dev",
+  "authors" : [{
+    "name" : "Linus Kohl",
+    "email" : "linus.kohl@live.com",
+    "homepage" : "https://github.com/linuskohl"
+  }
+  ],
+  "support" : {
+    "source" : "https://github.com/linuskohl/facebook-messenger-webhook"
+  },
+  "require" : {
+    //"guzzlehttp/guzzle" : "^6.2",
+    "netresearch/jsonmapper" : "~1.1.1"
+  },
+  "keywords" : [
+    "webhook",
+    "facebook",
+    "messenger",
+    "endpoint",
+  ],
+  "autoload" : {
+    "psr-4" : {
+      "linuskohl\\facebookMessengerWebhook\\" : "src"
+    }
+  }
+}
