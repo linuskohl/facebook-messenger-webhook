@@ -6,8 +6,7 @@
     "name" : "Linus Kohl",
     "email" : "linus.kohl@live.com",
     "homepage" : "https://github.com/linuskohl"
-  }
-  ],
+  }],
   "support" : {
     "source" : "https://github.com/linuskohl/facebook-messenger-webhook"
   },
@@ -18,7 +17,7 @@
     "webhook",
     "facebook",
     "messenger",
-    "endpoint",
+    "endpoint"
   ],
   "autoload" : {
     "psr-4" : {
