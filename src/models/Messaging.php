@@ -20,6 +20,7 @@ class Messaging
     /** @var string $recipient_id */
     public $recipient_id;
 
+    public $type;
 
-    public $data;
+
 }

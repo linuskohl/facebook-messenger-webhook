@@ -2,7 +2,6 @@
 
 namespace linuskohl\facebookMessengerWebhook\models;
 
-
 /**
  * Class Attachment
  *

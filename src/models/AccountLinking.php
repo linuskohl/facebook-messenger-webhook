@@ -2,8 +2,6 @@
 
 namespace linuskohl\facebookMessengerWebhook\models;
 
-use linuskohl\facebookMessengerWebhook\models\Message;
-
 /**
  * Class AccountLinking
  *
