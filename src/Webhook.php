@@ -1,7 +1,7 @@
 <?php
 
 namespace linuskohl\facebookMessengerWebhook;
-
+use Yii;
 use JsonMapper;
 use \linuskohl\facebookMessengerWebhook\models\AccountLinking;
 use \linuskohl\facebookMessengerWebhook\models\Delivery;
@@ -37,6 +37,9 @@ class Webhook
 
     /** @var \JsonMapper $mapper */
     private $mapper;
+
+
+    public $callback;
 
     /**
      * Webhook constructor.
@@ -121,7 +124,9 @@ class Webhook
                                 break;
                         }
                     }
-                    return $res;
+                    if(is_callable($this->callback)) {
+                        call_user_func($this->callback, $res);
+                    }
                 }
             }
 
