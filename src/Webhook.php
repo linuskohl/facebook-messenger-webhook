@@ -64,7 +64,7 @@ class Webhook
      *
      * @return bool
      */
-    public function verificationRequests($parameters)
+    public function handleVerification($parameters)
     {
         if (array_key_exists(self::HEADER_MODE, $parameters) &&
             array_key_exists(self::HEADER_VERIFY_TOKEN, $parameters) &&
